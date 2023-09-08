@@ -216,6 +216,7 @@ button:active {
   -ms-grid-row: 3;
   -ms-grid-column: 5;
 }
+
 #grid-container .grid__item {
   background-color: rgb(247, 191, 8);
   color: black;
@@ -223,23 +224,19 @@ button:active {
   min-height: 100px;
 }
 
-#grid-container .grid__item:nth-child(1) {
-}
-
-#grid-container .grid__item:nth-child(2) {
-}
-
 /* start grid fallback */
 .grid_item {
   display: inline-block;
   width: 33%;
 }
+
 /* end grid fallback */
 
 @support (display: grid) {
   .grid {
     display: -ms-grid;
     display: grid;
+
     /* grid-template-columns: 300px 300px 300px; fractions are better than pixels, they are responsive */
     -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
     grid-template-columns: 1fr 1fr 1fr;
@@ -266,10 +263,12 @@ button:active {
   .grid {
     grid-gap: 10px;
   }
+
   .grid_item:last-child {
     grid-column: auto / auto;
     grid-row: auto / auto;
   }
+
   h1 {
     font-size: 22px;
   }
@@ -285,9 +284,11 @@ button:active {
   0% {
     fill: #edc655;
   }
+
   50% {
     fill: #fcffad;
   }
+
   100% {
     fill: #f76414;
   }
@@ -297,9 +298,11 @@ button:active {
   0% {
     fill: #edc655;
   }
+
   50% {
     fill: #fcffad;
   }
+
   100% {
     fill: #f76414;
   }
@@ -315,6 +318,7 @@ button:active {
     -webkit-transform: translate(0, 50px);
     transform: translate(0, 50px);
   }
+
   to {
     -webkit-transform: translate(200px, 50px);
     transform: translate(200px, 50px);
@@ -326,11 +330,13 @@ button:active {
     -webkit-transform: translate(0, 50px);
     transform: translate(0, 50px);
   }
+
   to {
     -webkit-transform: translate(200px, 50px);
     transform: translate(200px, 50px);
   }
 }
+
 .cloud-front {
   -webkit-animation: 30s cloud-move infinite alternate linear;
   animation: 30s cloud-move infinite alternate linear;
@@ -341,6 +347,7 @@ button:active {
     -webkit-transform: translate(446px, 48px);
     transform: translate(446px, 48px);
   }
+
   to {
     -webkit-transform: translate(100px, 48px);
     transform: translate(100px, 48px);
@@ -352,11 +359,13 @@ button:active {
     -webkit-transform: translate(446px, 48px);
     transform: translate(446px, 48px);
   }
+
   to {
     -webkit-transform: translate(100px, 48px);
     transform: translate(100px, 48px);
   }
 }
+
 .cloud-back {
   -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
   animation: 34s cloud-move-reverse infinite alternate linear;
