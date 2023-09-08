@@ -120,7 +120,7 @@ button {
 }
 
 button:active {
-  background-color: #0f0;
+  background-color: rgb(247, 191, 8);
 }
 
 .profile__portrait {
@@ -217,7 +217,7 @@ button:active {
   -ms-grid-column: 5;
 }
 #grid-container .grid__item {
-  background-color: #0f0;
+  background-color: rgb(247, 191, 8);
   color: black;
   text-align: center;
   min-height: 100px;

@@ -52,7 +52,7 @@ button {
   border: none;
   display: inline-block;
   font-family: inherit;
-  background-color: var(--third-color);
+  background-color: var();
   color: var(--text-color);
   text-decoration: none;
   padding: 10px;
