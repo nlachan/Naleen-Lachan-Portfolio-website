@@ -1,0 +1,14 @@
+Naleen Lachan task 1.10
+
+https://nlachan.github.io/Naleen-Lachan-Portfolio-website/index.html
+
+Linters used:
+
+-   CSSLint
+-   HTMLHint
+-   Prettier
+-   Stylelint
+
+Cross-browser testing:
+
+Projects page: grid broke, had to re-arranged the style.production.
